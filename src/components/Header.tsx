@@ -19,13 +19,13 @@ const Input = styled('input', {
   display: 'inline-flex',
   alignItems: 'center',
   justifyContent: 'center',
-  padding: '0px 78px 0px 4px',
+  padding: '0px 78px 0px 0px',
   height: 35,
-  fontSize: 15,
+  fontSize: 25,
   lineHeight: 1,
-  color: 'black',
+  color: '#4c4cff',
   backgroundColor: 'transparent',
-  borderBottom:'groove',
+  borderBottom:'2px solid #4c4cff',
   boxShadow: 'none',
 });
 
@@ -41,7 +41,7 @@ export const Header = () =>{
     	<Label htmlFor="firstName" css={{ lineHeight: '35px', marginRight: 15 }}>
       Quantidade
     	</Label>
-    	<Input type="text" id="firstName" defaultValue="0.000,00" />
+    	<Input type="text" id="firstName" defaultValue="150" />
   	</Flex>
 	</Paragrafs>
 )}
