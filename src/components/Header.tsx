@@ -38,10 +38,10 @@ export const Header = () =>{
 	return (
 	<Paragrafs>
 	<Flex css={{ flexWrap: 'wrap', alignItems: 'center' }}>
-    	<Label htmlFor="firstName" css={{ lineHeight: '35px', marginRight: 15 }}>
+    	<Label htmlFor="valueNumber" css={{ lineHeight: '35px', marginRight: 15 }}>
       Quantidade
     	</Label>
-    	<Input type="text" id="firstName" defaultValue="150" />
+    	<Input type="number" step="0.01" id="valueNumber"/>
   	</Flex>
 	</Paragrafs>
 )}
